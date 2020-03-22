@@ -1,18 +1,18 @@
 # Java Projects
 
-### 1. Java and JUnit-Warmup
+### 1. JavaJUnit-Warmup
 ##### Play with strings
 
-### 2. Android Development-Warmup
+### 2. AndroidDevelopment-Warmup
 ##### Simple encryption app using Android Studio
 
-### 3. Intro ro Software Design-UMLClassDiagram
-##### Design a simple word scrabble game
+### 3. SoftwareDesign-UMLClassDiagram
+##### Design a simple word scrabble game (UML class diagram)
 
-### 4. Black Box-Testing
+### 4. BlackBox-Testing
 ##### Simple blackbox testing assignment: Category partition
 
-### 5. White Box-Testing
+### 5. WhiteBox-testing
 ##### White box software testing: warmup
 
 ### 6. AndroidApp-Scrabble
