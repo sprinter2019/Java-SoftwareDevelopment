@@ -1,0 +1,69 @@
+# File
+  Size:
+	Empty.		[error]
+	Not Empty.
+
+	
+	
+# Flags:
+  Flags specified:
+	Yes.
+	No.		[single]
+	Incorrect. 	[error]
+
+
+
+# Flag -a:
+  Flag is -a:
+	Yes.		 [property flag_a] 
+	No.	
+
+
+
+# Flag -r:
+  Flag is -r:
+	Yes.		 [property flag_r]
+	No.
+
+
+
+# Flag -k:
+  Flag is -k:
+	Yes.		[if !flag_r]  [property flag_k]
+	No.
+	
+
+
+
+# Flag -c:
+  Flag is -c:
+	Yes.		[property flag_c]
+	No.		[property allAlphabets]		
+
+
+
+# ArgString:
+  String length 0:
+	Yes.		[property strLen0]
+	No.
+  Presence of reserved characters:
+	No.		[if !strLen0]		
+	Yes.		[if !strLen0]
+  Presence of enclosing quotes:
+	Enclosed.	[if !strLen0]
+	Not enclosed. 	[error]	
+	Incorrect.	[error] 
+  Presence of alphabets:
+	Yes.		[if !strLen0]
+	No.		
+	
+
+
+# Filename
+  Presence of a file corresponding to the name:
+	Not present.	[error] [property NotExists]
+	Present.
+  Filename contains blanks:
+	No.  		[if !NotExists]
+	One. 		[if !NotExists] [single]
+	Multiple. 	[if !NotExists] [single]
