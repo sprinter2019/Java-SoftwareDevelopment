@@ -18,5 +18,8 @@
 ### 6. AndroidApp-Scrabble
 ##### Develop Android app for an word scrabble game
 
+### 7. Star Search Simulator
+##### CLI implemenation of space exploration with drones
+
 
 
